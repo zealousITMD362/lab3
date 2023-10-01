@@ -179,9 +179,20 @@ main {
   flex-wrap: wrap;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
-
-
+#input-age-verification label, input {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+#input-submit input {
+  float: right;
+  display: block;
+  padding: 2%;
+}
+p {
+  padding: 2%;
+}
 
 /* ===== STATE STYLES ======= */
