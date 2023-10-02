@@ -220,6 +220,7 @@ p {
     background-color: #696969;
     font-size: 1.2em;
     text-rendering: optimizeLegibility;
+    font-family: Verdana, Tahoma, "Courier New", sans-serif;
   }
   #input-submit input {
     background-color: #DCDCDC;
