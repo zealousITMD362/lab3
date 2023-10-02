@@ -160,7 +160,7 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 html {
-  font-size: 1.375em; /* 22px 
+  font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
@@ -172,27 +172,26 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 main {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 h1 {
   font-size: 2em;
+  line-height: 1.8em;
 }
 #input-age-verification label, input {
-  vertical-align: top;
+  vertical-align: center;
   display: inline-block;
-  position: relative;
+  float: left;
 }
 #input-submit input {
   float: right;
   display: block;
-  padding: 2%;
 }
 p {
-  padding: 2%;
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
 }
 
 /* ===== STATE STYLES ======= */
