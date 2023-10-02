@@ -176,7 +176,10 @@ main {
   margin: auto;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+}
+#info {
+  flex-wrap: nowrap;
+  margin: auto;
 }
 html{
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
@@ -207,6 +210,7 @@ p {
 }
 #input-email label {
   padding-top: 1.182em;
+  padding-bottom: 1.182em;
 }
 
 /* ===== STATE STYLES ======= */
