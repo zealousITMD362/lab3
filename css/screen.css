@@ -171,13 +171,13 @@ label {
 
 
 /* ===== LAYOUT STYLES ====== */
-/*main {
+main {
   width: 100%;
   margin: auto;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-}*/
+}
 html{
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
 }
@@ -208,7 +208,7 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 800px){
   #info{
     width: 75%;
     flex-wrap: nowrap;
@@ -218,7 +218,6 @@ p {
     color: white;
     background-color: #696969;
     font-size: 1.2em;
-    line-height: 1.18em;
     text-rendering: optimizeLegibility;
   }
   #input-submit input {
