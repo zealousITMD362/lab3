@@ -172,8 +172,8 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 main {
-  width: 100%;
-  margin: auto;
+  width: 50%;
+  margin-right: 25%;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -185,11 +185,13 @@ h1 {
   font-size: 2em;
   padding-bottom: 1.182em;
   padding-top: 1.182em;
+  line-height: 1.9em;
 }
 #input-age-verification label, input {
   vertical-align: center;
   display: inline-block;
   padding-right: 0.5em;
+  padding-top: 1.182em;
 }
 #input-email label, input {
   vertical-align: center;
@@ -210,6 +212,22 @@ p {
   #info{
     width: 75%;
     flex-wrap: nowrap;
-    
+    margin: auto;
+  }
+  html {
+    color: white;
+    background-color: #696969;
+  }
+  #input-submit input {
+    background-color: #DCDCDC;
+    outline-color: white;
+  }
+  #input-email input {
+    background-color: #DCDCDC;
+    outline-color: white;
+  }
+  #input-age-verification input{
+    outline-color: white;
+    background-color: #DCDCDC;
   }
 }
