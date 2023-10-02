@@ -188,10 +188,17 @@ h1 {
 #input-age-verification label, input {
   vertical-align: center;
   display: inline-block;
+  padding-right: 0.5em;
+}
+#input-email label, input {
+  vertical-align: center;
+  display: inline-block;
   padding-right: 0.25em;
 }
 #input-submit input {
-  display: block;
+  display: flex;
+  float: right;
+  padding-top: 1.182em;
 }
 p {
   padding-bottom: 1.182em;
@@ -201,7 +208,8 @@ p {
 /* ===== STATE STYLES ======= */
 @media only screen and (min-width: 800px){
   #info{
-    width: 65%;
+    width: 75%;
     flex-wrap: nowrap;
+    
   }
 }
