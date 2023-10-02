@@ -171,13 +171,13 @@ label {
 
 
 /* ===== LAYOUT STYLES ====== */
-main {
-  width: 50%;
-  margin-right: 25%;
+/*main {
+  width: 100%;
+  margin: auto;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 html{
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
 }
@@ -208,7 +208,7 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
-@media only screen and (min-width: 800px){
+@media only screen and (max-device-width: 600px){
   #info{
     width: 75%;
     flex-wrap: nowrap;
@@ -217,6 +217,9 @@ p {
   html {
     color: white;
     background-color: #696969;
+    font-size: 1.2em;
+    line-height: 1.18em;
+    text-rendering: optimizeLegibility;
   }
   #input-submit input {
     background-color: #DCDCDC;
@@ -229,5 +232,8 @@ p {
   #input-age-verification input{
     outline-color: white;
     background-color: #DCDCDC;
+  }
+  h1 {
+      font-size: 2em;
   }
 }
