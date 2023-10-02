@@ -172,7 +172,7 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 main {
-  width: 100%;
+  width: 700px;
   margin: auto;
   text-align: center;
   display: flex;
@@ -208,7 +208,7 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
-@media only screen and (max-device-width: 800px){
+@media (max-width: 800px) {
   #info{
     width: 75%;
     flex-wrap: nowrap;
