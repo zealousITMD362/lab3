@@ -189,6 +189,8 @@ h1 {
   vertical-align: center;
   display: inline-block;
   padding-right: 0.5em;
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
 }
 #input-email label, input {
   vertical-align: center;
@@ -198,7 +200,6 @@ h1 {
 #input-submit input {
   display: flex;
   float: right;
-  padding-top: 1.182em;
 }
 p {
   padding-bottom: 1.182em;
