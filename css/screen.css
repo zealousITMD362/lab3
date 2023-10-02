@@ -172,9 +172,14 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 main {
-  width: 100%;
+  width: 95%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+html{
+  font-family: 'Fanwood Text', Georgia, Garamond, serif;
 }
 h1 {
   font-size: 2em;
@@ -183,10 +188,9 @@ h1 {
 #input-age-verification label, input {
   vertical-align: center;
   display: inline-block;
-  float: left;
+  padding-right: 0.25em;
 }
 #input-submit input {
-  float: right;
   display: block;
 }
 p {
@@ -195,3 +199,9 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
+@media only screen and (min-width: 800px){
+  #info{
+    width: 65%;
+    flex-wrap: nowrap;
+  }
+}
