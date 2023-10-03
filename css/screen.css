@@ -247,6 +247,7 @@ p {
   h1 {
     font-size: 2em;
     background-color: #DCDCDC;
+    color: black;
   }
   main {
     width: 75%;
