@@ -184,6 +184,7 @@ main {
 }
 html{
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
+  background-color: #EDC2C2;
 }
 h1 {
   font-size: 2em;
@@ -192,6 +193,8 @@ h1 {
   line-height: 1.9em;
   display: block;
   background-color: #C08080;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 #input-age-verification label, input {
   vertical-align: center;
