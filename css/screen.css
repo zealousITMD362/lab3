@@ -176,6 +176,7 @@ main {
   margin: auto;
   text-align: center;
   display: flex;
+  flex-wrap: nowrap;
 }
 #info {
   flex-wrap: nowrap;
