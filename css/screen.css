@@ -190,6 +190,8 @@ h1 {
   padding-bottom: 1.182em;
   padding-top: 1.182em;
   line-height: 1.9em;
+  display: block;
+  background-color: #C08080;
 }
 #input-age-verification label, input {
   vertical-align: center;
@@ -240,7 +242,8 @@ p {
     background-color: #DCDCDC;
   }
   h1 {
-      font-size: 2em;
+    font-size: 2em;
+    background-color: #DCDCDC;
   }
   main {
     width: 75%;
